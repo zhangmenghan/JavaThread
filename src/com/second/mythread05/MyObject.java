@@ -2,7 +2,7 @@ package com.second.mythread05;
 
 public class MyObject {
 
-	synchronized public void methodA() {
+	public void methodA() {
 		try {
 			System.out.println("begin methodA threadName="
 					+ Thread.currentThread().getName());
